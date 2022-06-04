@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZ</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-database.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body onload="showques(0)">
+    <div class="main">
+      <header class="heading1">
+        <h1 class="">ONLINE QUIZ</h1>
+      </header>
+      <div class="body1">
+        <div class="name">SHAYAN</div>
+        <div class="time">00:00</div>
+      </div>
+      </div>
+      
+      
+      
+      <div class="card text-center  crd">
+        <div class="card-body  crdB">
+          <h5 class="card-title   crdT" id="sawal">Question</h5>
+          
+          <span>
+            <input type="radio" name="op" id="options" class="inp">
+            <label for="opt1" class="para" id="optionElement">shayan</label>
+          </span>
+          <span>
+          <input type="radio" name="op" id="options" class="inp">
+          <label for="opt1" class="para" id="optionElement">shayan</label>
+        </span>
+
+        <span>
+        <input type="radio" name="op" id="options" class="inp">
+        <label for="opt1" class="para" id="optionElement">shayan</label>
+      </span>
+      <span>
+      <input type="radio" name="op" id="options" class="inp">
+      <label for="opt1" class="para" id="optionElement">shayan</label>
+    </span>
+    <!-- <button class="btn btn-primary  butn  next" id="nextBtn" onclick="nextQues()">
+      <span id="submission">Next Question</span>
+      </button> -->
+      <button class="next  btn btn-primary  butn" onclick="nextQues()" >
+        <span id="submission">next</span>
+        <div class="success">
+        <!-- <svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"  viewBox="0 0 29.756 29.756" style="enable-background:new 0 0 29.756 29.756;" xml:space="preserve">
+          
+        <path d="M29.049,5.009L28.19,4.151c-0.943-0.945-2.488-0.945-3.434,0L10.172,18.737l-5.175-5.173   c-0.943-0.944-2.489-0.944-3.432,0.001l-0.858,0.857c-0.943,0.944-0.943,2.489,0,3.433l7.744,7.752   c0.944,0.943,2.489,0.943,3.433,0L29.049,8.442C29.991,7.498,29.991,5.953,29.049,5.009z"/>
+     </svg> -->
+          </div>
+      </button>
+    
+  </div>
+</div>
+<!-- <span id="submission" class="btn btn-primary  butn" onclick="showques()">next</span> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+      
+      <script src="./app.js"></script>
+    </body>
+    </html>

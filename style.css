@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.heading1{
+    background-color: black;
+    color: antiquewhite;
+}
+.heading1 h1{
+    text-align: center;
+
+}
+.body1{
+    background-color: rgb(238, 238, 238);
+    margin: 12px auto 0 auto;
+    border-radius: 5px;
+    border: 1px dotted black;
+    width: 20%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.name{
+    flex: 50%;
+    align-self: center;
+    text-align: center;
+}
+.time{
+    flex: 50%;
+    align-self: center;
+    text-align: center;    
+}
+.crd{
+    width: 90%;
+    height: 400px;
+    margin: 12px auto 0 auto;
+}
+.crdB{
+    margin-top: 10px;
+}
+.crdT{
+    margin-top: -12px;
+    border-radius: 15px;
+    background-color: rgba(253, 192, 192, 0.356);
+}
+
+.inp{
+     background-color: black; */
+    /* flex: 5%;  */
+    /* margin-top: 10px; */
+    /* text-align: center; */
+    /* align-self: center; */
+    /* justify-items: center;  */
+    /* align-items: center; */
+    /* margin: auto; */
+
+  
+}
+.next.is_active{
+    width: 40px;
+    height: 40px;
+  }
+  
+  .next.is_active .success{
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .next.is_active .success svg{
+    margin-top: 50%;
+    transform: translateY(-50%) rotate(720deg) scale(1);
+  }
+  
+  .next.is_active span{
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  
+    .contact h5{
+        width: 100%;    
+        margin: auto;
+        text-align: center;
+        /* align-self: center; */
+        font-size: 200px;
+        color: rgb(255, 217, 0);
+        font-weight: bold;
+        /* justify-content: center; */
+    
+    }
+    @media(max-width: 735px){
+        .contact h5{
+            width: 100%;    
+            margin: auto;
+            text-align: center;
+            /* align-self: center; */
+            font-size: 150px;
+            color: rgb(255, 217, 0);
+            font-weight: bold;
+            /* justify-content: center; */
+        
+        }
+    }
+    .part {
+        margin-top: 70px;
+    }
+    .part h5{
+        font-size: 30px;
+        /* display: flex; */
+        background-color: rgb(204, 202, 202);
+        height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        /* text-align: center; */
+        /* align-content: center; */
+        /* justify-content: center;
+        align-self: center; */
+    
+    }
+    .part1{
+        display: flex;
+    }
+    .contact{
+        width: 40%;
+        margin: auto;
+        /* padding: 20px; */
+        display: flex;
+        /* justify-content: center; */
+        /* align-items: center; */
+        flex-direction: column;
+    }
+    .contact input{
+        margin: 5px;
+        height: 50px;
+    }
+    .conBtn{
+        border: 2px solid black  ;
+        background-color: #868686;
+        /* border-radius: 15px; */
+    }
+    
+
+
+
+
+
+
+
+
+    
